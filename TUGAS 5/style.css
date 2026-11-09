@@ -1,0 +1,54 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 15px;
+}
+
+header nav a {
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(39, 34, 34);
+}
+
+.container {
+    height: 2500px;
+}
+
+.container .deskripsi {
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.foto {
+    display: flex;
+
+}
+
+.foto p {
+    margin: 20px;
+}
+
+
+#toTop {
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   border: none;
+   background-color: blue;
+   color: white;
+   padding: 10px 20px;
+   font-size: 15px;
+   border-radius: 10px;
+   opacity: 0.5;
+   transition: opacity 0.5s;
+   display: none;
+}
+
+#toTop:hover{
+    opacity: 1;
+}
